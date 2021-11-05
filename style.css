@@ -1,0 +1,60 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+}
+.carta{
+    max-height: 80vh;
+    max-width: 30vw;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.contendor-img{
+    width: 100%;
+    
+}
+.contendor-img img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.centrar{
+    text-align: center;
+}
+.centrar1 {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content:space-evenly;
+}
+.btn{
+    width: 75%;
+    display: block;
+    margin: auto;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+}
+.a1{
+    margin: 20px 0;
+    font-size: 14px;
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+}
+.comprar{
+    display: flex;
+}
+.comprar button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.ancor{
+    display: flex;
+    align-items: center;
+}
